@@ -2,6 +2,7 @@
 
 # GitHub API URL
 API_URL="https://api.github.com"
+echo "This is a feature branch"
 
 # GitHub username and personal access token
 USERNAME=$username
@@ -38,5 +39,6 @@ function list_users_with_read_access {
 
 # Main script
 
+echo "This is a feature branch"
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
